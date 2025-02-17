@@ -1,3 +1,4 @@
 rootProject.name = 'microservices-spring-cloud'
 
 include 'mscv-prducts'
+include 'mscv-items'
