@@ -18,6 +18,9 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
+    @Transient
+    private Integer port;
+
     @Column(name = "name_product")
     private String nameProduct;
 
